@@ -722,6 +722,21 @@ footer a {
   min-width: 0 !important;
 }
 
+.tiktok-player {
+  display: block;
+  width: 100%;
+  min-height: 690px;
+  border: 0;
+  border-radius: 12px;
+  background: #000;
+}
+
+@media (max-width: 700px) {
+  .tiktok-player {
+    min-height: 600px;
+  }
+}
+
 .fallback-link {
   display: inline-flex;
   margin-top: 12px;
